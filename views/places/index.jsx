@@ -1,5 +1,5 @@
 const React = require('react')
-const Def = require('./default')
+
 
 
 function indexPage (data) {
@@ -12,12 +12,10 @@ function indexPage (data) {
     )
   })
   return (
-    <Def>
         <main>
             <h1>PLACES INDEX PAGE</h1>
             {placesFormatted}
         </main>
-    </Def>
 )
 }
 
