@@ -3,7 +3,7 @@ const React = require('react')
 
 
 function indexPage (data) {
-  let placesFormatted = data.places.map((place) => {
+  let placesFormatted = data.places?.map((place) => {
     return (
       <div>
         <h2>{place.name}</h2>
